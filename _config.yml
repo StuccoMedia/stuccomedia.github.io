@@ -1,0 +1,28 @@
+# theme: jekyll-docs-theme-gem
+remote_theme: nimroddavid/jekyll-docs-theme
+name: StuccoMedia Docs
+baseurl: "/stucco-docs"
+url: "https://stuccomedia.github.io" 
+
+favicon: png
+autonav: false
+title_prefix: StuccoMedia Docs
+
+ui:
+    main_color: "#000059"
+    header:
+        main_color: "#000059"
+        secondary_color: "#2222c1"
+        trianglify: true
+    footer:
+        main_color: "#000059"
+        secondary_color: "#FFFFFF"
+
+links:
+    footer:
+      - title: StuccoMedia
+        url: https://www.stuccomedia.com/
+        image_url: /static/images/stuccomedia.png
+      - title: Market Group
+        url: http://market-group.com/
+        image_url: /static/images/marketgroup.png
