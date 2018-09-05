@@ -1,7 +1,7 @@
 # theme: jekyll-docs-theme-gem
 remote_theme: nimroddavid/jekyll-docs-theme
 name: StuccoMedia Docs
-baseurl: "/stucco-docs"
+baseurl: "/"
 url: "https://stuccomedia.github.io" 
 
 favicon: png
