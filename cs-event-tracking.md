@@ -14,7 +14,7 @@ Client side event tracking provides an easy way for you to pass information of u
 On every page that events should be reported from, paste the following HTML/JavaScript code between the `<head>` and `</head>` tags:
 
 ```html
-    <script type="text/javascript">
+<script type="text/javascript">
     !function(s,t,u,c,c,o){var a=["\x67\x63\x6c\x69\x64","\x6d\x73\x63\x6c\x6b\x69\x64"];q=[];
     var c={q:q,event:function(e,n){q.push(["event", e, n])},setToken:function(e){s.mktag.partner_token=e},
     transform:function(d){d.visitor_id=s.mktag.mktag_visitor_id;if(window.mktag.mktag_visit_id_expires_at
@@ -28,7 +28,7 @@ On every page that events should be reported from, paste the following HTML/Java
 
     mktag.setToken("<YOUR-PARTNER-TOKEN>");
     mktag.event("PageView");
-    </script>
+</script>
 ```
 > This default setup code fires the PageView event and should work for most sites. If your website is an _SPA_, please take a look at [this page]({{ site.baseurl }}{% link cs-event-tracking-spa.md %})
 
