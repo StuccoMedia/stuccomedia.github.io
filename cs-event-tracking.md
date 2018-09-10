@@ -21,7 +21,7 @@ On every page that events should be reported from, paste the following HTML/Java
     &&new Date()>new Date(window.mktag.mktag_visit_id_expires_at*1000)){window.mktag.mktag_visit_id='';}
     d.visit_id=s.mktag.mktag_visit_id;return d;},setAuto:function(m){s.mktag.auto=m}},sp=s.location
     .search.substring(1)===""?{}:JSON.parse('{"'+s.location.search.substring(1).replace(/&/g,'","').replace
-    (/=/g,'":"')+'"}',function(e,n){return""===e?n:decodeURIComponent(n)}),,p="",pn="";for(var i=0;i<a.length;i++)
+    (/=/g,'":"')+'"}',function(e,n){return""===e?n:decodeURIComponent(n)}),p="",pn="";for(var i=0;i<a.length;i++)
     if(sp.hasOwnProperty(a[i])){p=sp[a[i]];pn=a[i];break}s.mktag=s.mktag||c;var d=t.createElement("script");
     d.async=!0,d.src=""===p?u:u+"?"+encodeURIComponent(pn)+"="+encodeURIComponent(p),t.head.appendChild(d);}
     (window,document,"https://r.stuccomedia.com/resource/mktag.js");
