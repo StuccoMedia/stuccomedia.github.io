@@ -15,8 +15,8 @@ On every page that events should be reported from, paste the following HTML/Java
 
 ```html
 <script type="text/javascript">
-    !function(s,t,u,c,c,o){var a=["\x67\x63\x6c\x69\x64","\x6d\x73\x63\x6c\x6b\x69\x64"];q=[];
-    var c={q:q,event:function(e,n){q.push(["event", e, n])},setToken:function(e){s.mktag.partner_token=e},
+    !function(s,t,u,c,c,o){if(s.mktag){return;}var a=["\x67\x63\x6c\x69\x64","\x6d\x73\x63\x6c\x6b\x69\x64"];
+    var q=[];var c={q:q,event:function(e,n){q.push(["event", e, n])},setToken:function(e){s.mktag.partner_token=e},
     transform:function(d){d.visitor_id=s.mktag.mktag_visitor_id;if(window.mktag.mktag_visit_id_expires_at
     &&new Date()>new Date(window.mktag.mktag_visit_id_expires_at*1000)){window.mktag.mktag_visit_id='';}
     d.visit_id=s.mktag.mktag_visit_id;return d;},setAuto:function(m){s.mktag.auto=m}},sp=s.location
