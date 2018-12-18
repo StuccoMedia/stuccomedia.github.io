@@ -68,7 +68,7 @@ Here is a description for all the recommended parameters to be passed with the e
 | products       | The details of the products being checked out                                        | array of objects |
 | product_id     | The ID of the product being checked out (as part item in the "products" array)       | string           |
 | category   | The category name of the product being checked out (as part item in the "products" array) | string           |
-| categoryId     | The category id of the product being checked out (as part item in the "products" array) | string           |
+| categoryId     | The category id of the product being checked out (as part item in the "products" array) | number           |
 | quantity       | The quantity of the product being checked out (as part item in the "products" array) | number           |
 | price          | The price of the product being checked out (as part item in the "products" array)    | decimal number   |
 
