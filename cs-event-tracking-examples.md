@@ -78,15 +78,15 @@ mktag.event("InitiateCheckout", {
     products: [
         {
             product_id: "JSEL99JD7G",
-            categoryName: "Electronics > Arcade Equipment",
-            categoryId: 3356,
+            category_name: "Electronics > Arcade Equipment",
+            category_id: 3356,
             price: 15,
             quantity: 1
         },
         {
             product_id: "SQ41DMpIJ9",
-            categoryName: "Animals & Pet Supplies",
-            categoryId: 166,
+            category_name: "Animals & Pet Supplies",
+            category_id: 166,
             price: 10.5,
             quantity: 2
         }
@@ -101,15 +101,15 @@ mktag.event("Purchase", {
     products: [
         {
             product_id: "JSEL99JD7G",
-            categoryName: "Electronics > Arcade Equipment",
-            categoryId: 3356,
+            category_name: "Electronics > Arcade Equipment",
+            category_id: 3356,
             price: 15,
             quantity: 1
         },
         {
             product_id: "SQ41DMpIJ9",
-            categoryName: "Apparel & Accessories",
-            categoryId: 166,
+            category_name: "Apparel & Accessories",
+            category_id: 166,
             price: 10.5,
             quantity: 2
         }
