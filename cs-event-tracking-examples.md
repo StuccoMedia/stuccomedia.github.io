@@ -28,7 +28,7 @@ Report this event when the user views a details page for a specific product:
 ```javascript
 mktag.event("ProductView", {
     name: "Q62 Bluetooth Earphone",
-    value: "22.5",
+    value: 22.5,
     currency: "USD",
     product_ids: [
         "zCymrMPAXUWd" //will usually contain only one ID
@@ -43,7 +43,7 @@ Report this event after a use completed their registration to the site. If the r
 ```javascript
 //a paid registration
 mktag.event("CompleteRegistration", {
-    value: "9.99",
+    value: 9.99,
     currency: "USD",
 });
 
@@ -58,7 +58,7 @@ Indicate that a user added a product to his shopping cart, ideally including det
 ```javascript
 mktag.event("AddToCart", {
     name: "Joby GorillaPod 500 Action Black / Charcoal",
-    value: "23.95",
+    value: 23.95,
     currency: "USD",
     product_ids: [
         "JOYGORILLAPOD500A" //will usually contain only one ID
