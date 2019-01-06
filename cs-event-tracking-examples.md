@@ -75,6 +75,7 @@ Both events have the same structure, and as their names imply are used to report
 mktag.event("InitiateCheckout", {
     value: 36,
     currency: "USD",
+    order_id: "AjEFN2uCu2",
     products: [
         {
             product_id: "JSEL99JD7G",
@@ -98,6 +99,7 @@ mktag.event("InitiateCheckout", {
 mktag.event("Purchase", {
     value: 36,
     currency: "USD",
+    order_id: "AjEFN2uCu2",
     products: [
         {
             product_id: "JSEL99JD7G",
