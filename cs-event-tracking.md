@@ -64,6 +64,7 @@ Here is a description for all the recommended parameters to be passed with the e
 | name           | The title of the product relevant to the event being reported                        | string           |
 | value          | The value corresponding the event being reported                                     | decimal number   |
 | currency       | A three letter code for the currency of the value reported in the event               | string           |
+| order_id     | The ID of the order being checked out (helps us to remove duplicated "purchase" events)       | string           |
 | num_of_items   | The number of items being checked out                                                | number           |
 | products       | The details of the products being checked out                                        | array of objects |
 | product_id     | The ID of the product being checked out (as part item in the "products" array)       | string           |
