@@ -58,7 +58,7 @@ Indicate that a user added a product to his shopping cart, ideally including det
 ```javascript
 mktag.event("AddToCart", {
     name: "Joby GorillaPod 500 Action Black / Charcoal",
-    value: 23.95,
+    value: 23.95, //the unit price of the product
     currency: "USD",
     product_ids: [
         "JOYGORILLAPOD500A" //will usually contain only one ID
