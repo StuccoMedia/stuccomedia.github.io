@@ -24,7 +24,7 @@ On every page that events should be reported from, paste the following HTML/Java
     (/=/g,'":"')+'"}',function(e,n){return""===e?n:decodeURIComponent(n)}),p="",pn="";for(var i=0;i<a.length;i++)
     if(sp.hasOwnProperty(a[i])){p=sp[a[i]];pn=a[i];break}s.mktag=s.mktag||c;var d=t.createElement("script");
     d.async=!0;d.src=""===p?u:u+"?"+encodeURIComponent(pn)+"="+encodeURIComponent(p);t.head.appendChild(d);}
-    (window,document,"https://r.stuccomedia.com/resource/mktag.js");
+    (window,document,"https://r.stuccomedia.com/resource/mktag.min.js");
 
     mktag.setToken("<YOUR-PARTNER-TOKEN>");
     mktag.event("PageView");
