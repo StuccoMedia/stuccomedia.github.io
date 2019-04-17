@@ -60,6 +60,7 @@ mktag.event("AddToCart", {
     name: "Joby GorillaPod 500 Action Black / Charcoal",
     value: 23.95, //the unit price of the product
     currency: "USD",
+    quantity: 1,
     product_ids: [
         "JOYGORILLAPOD500A" //will usually contain only one ID
     ]
